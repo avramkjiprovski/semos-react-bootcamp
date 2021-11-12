@@ -27,7 +27,7 @@ export const App = () => {
       genre: 'Drama',
       plot: 'A wealthy New York City investment banking executive, Patrick Bateman, hides his alternate psychopathic ego from his co-workers and friends as he delves deeper into his violent, hedonistic fantasies.',
       imdbLink: 'https://www.imdb.com/title/tt0144084/?ref_=fn_al_tt_1',
-      imgUrl: 'https://m.media-amazon.com/images/M/MV5BZTM2ZGJmNj…kEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1012_.jpg'
+      imgUrl: 'https://m.media-amazon.com/images/M/MV5BZTM2ZGJmNjQtN2UyOS00NjcxLWFjMDktMDE2NzMyNTZlZTBiXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg'
     },
     {
       name: 'Fight Club',
@@ -35,7 +35,7 @@ export const App = () => {
       genre: 'Drama',
       plot: 'An insomniac office worker and a devli-may-care soap maker form an underground fight club that evolves into much more.',
       imdbLink: 'https://www.imdb.com/title/tt0137523/?ref_=fn_al_tt_1',
-      imgUrl: 'https://m.media-amazon.com/images/M/MV5BMmEzNTkxYj…kEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1066_.jpg'
+      imgUrl: 'https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg'
     },
     {
       name: 'Helsreach: The Full Movie',
@@ -43,7 +43,7 @@ export const App = () => {
       genre: 'Sci-Fi',
       plot: 'Set during the Third War for Armageddon, Helsreach follows Grimaldus, the newly promoted Reclusiarch of the Black Templars. Leading a group of Black Templars, and supported by the 101st Armageddon Steel Legion and titans of Legio Invigilata, he is tasked with the defense of Hive Helsreach from the Ork invasion.',
       imdbLink: 'https://www.imdb.com/title/tt12820524/?ref_=tt_sims_tt_i_2',
-      imgUrl: 'https://m.media-amazon.com/images/M/MV5BOTRhZTEwYW…XkEyXkFqcGdeQXVyODA2NjcyMTE@._V1_FMjpg_UX900_.jpg'
+      imgUrl: 'https://m.media-amazon.com/images/M/MV5BOTRhZTEwYWMtYTRjNC00YjQ2LTgyMzMtOGJjY2U1YzdlOWZlXkEyXkFqcGdeQXVyODA2NjcyMTE@._V1_.jpg'
     },
   ]
 
