@@ -10,7 +10,8 @@ export default class ClassForm extends React.Component {
         this.handleChange = this.handleChange.bind(this);
     }
 
-    handleSubmit() {
+    handleSubmit(e) {
+        e.preventDefault();
         this.props.handleSubmit();
     }
 
@@ -24,14 +25,14 @@ export default class ClassForm extends React.Component {
 
     return (
         <div className="ClassForm">
-            <form onSubmit={this.props.handleSubmit}>
+            <form onSubmit={this.handleSubmit}>
                 <label>First Name:</label>
                 <input 
                     type="text" 
                     name="name"
                     placeholder="First Name"
                     value={this.props.name}
-                    onChange={this.props.handleChange}
+                    onChange={this.handleChange}
                 />
 
                 <label>Last Name:</label>
@@ -40,7 +41,7 @@ export default class ClassForm extends React.Component {
                     name="surname"
                     placeholder="Last Name"
                     value={this.props.surname}
-                    onChange={this.props.handleChange} 
+                    onChange={this.handleChange} 
                 />
 
                 <label>Email:</label>
@@ -49,7 +50,7 @@ export default class ClassForm extends React.Component {
                     name="email"
                     placeholder="Email"
                     value={this.props.email}
-                    onChange={this.props.handleChange}
+                    onChange={this.handleChange}
                 />
 
                 <label>Password:</label>
