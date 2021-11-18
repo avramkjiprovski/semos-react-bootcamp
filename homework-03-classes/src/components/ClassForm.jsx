@@ -5,6 +5,9 @@ import PropTypes from 'prop-types';
 export default class ClassForm extends React.Component {
     constructor(props) {
         super(props);
+
+        this.handleSubmit = this.handleSubmit.bind(this);
+        this.handleChange = this.handleChange.bind(this);
     }
 
     handleSubmit() {
@@ -80,7 +83,7 @@ export default class ClassForm extends React.Component {
 ClassForm.propTypes = {
     handleSubmit: PropTypes.func.isRequired,
     handleChange: PropTypes.func.isRequired,
-    className: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
     surname: PropTypes.string.isRequired,
     email: PropTypes.string.isRequired,
     password: PropTypes.string.isRequired,
